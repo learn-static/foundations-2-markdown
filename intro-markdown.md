@@ -41,10 +41,58 @@ When writing on the Internet with Markdown, we use it's synax to format text in 
 - Paragraphs
 - Line Breaks
 - Emphasis, e.g. bold and italics
-- Lists, e.g. ordered lists and unordered lists
+- Lists, e.g. numbered lists and unordered lists
 - Images
 - Hyperlinks
 - Blockquotes
 - Tables
 
-For this learning exervise, we will learn how to use headings, paragraphs, line breaks, emphasis, lists, images, and hyperlinks. To learn how to use other parts of the Markdown syntax visit [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+For this learning exercise, we will learn how to use headings, paragraphs, line breaks, emphasis, lists, images, and hyperlinks. To learn how to use other parts of the Markdown syntax visit [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+
+## Adding Headers
+Markdown uses `#` to give structure to a web page's layout. There are different heading levels to use when writing. And there are different ones to use depending on a heading's level.
+
+```# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
+
+Now lets apply this to the `index.md` that you previously made.
+
+1. Get into `index.md` edit mode
+2. Add two headings using this code -- heading 1 and heading 2. You are welcome to use whatever text you like, but example text is available.
+
+```
+# Yōkai Senjafuda: Stories about Ghosts and Monsters
+## Senjafuda collections at the University of Oregon
+```
+3. Click the Preview tab that is to the write Edit File tab. This will allow you to see how your headings will render on a web page.
+
+![Figure showing where to add headings.](/assets/images/markdown-006.png)
+
+![Figure showing a preview of how headings will render on a web page.](/assets/images/markdown-007.png)
+
+## Adding Paragraphs
+
+## Adding Line Breaks
+
+## Adding Emphasis
+
+### Add Italics Emphasis
+
+### Add Bold Emphasis
+
+## Adding Lists
+
+### Create an Unordered List
+
+### Create a Numbered List
+
+## Adding Images
+
+## Adding Hyperlinks
+
+
