@@ -1,26 +1,50 @@
 # Introduction to Markdown
+Before we start, let's clarify what is Markdown and give it some context.
 
-(from Foundational Learning Modules google doc):
-- Copy Template Repository
-- Activate GH Pages
-- Create index.md
-- Create headings, bold/italic, lists, etc.
-- Commit changes
-- View changes rendered on GH pages
+## What is Markdown?
+Markdown is a plain text formatting syntax that helps to make writing for the Internet easier. It allows for a straight-forward way to structure text, links, images, code, tables, and lists within a plain text document without using tags like those used to markup plain text documents with HTML.
 
-## Activate GitHub Pages
+## Why use Markdown?
+1. It can be fast to use while writing web page content
+2. It is used all over the place. It's a standard used by GitHub and other tools people use reguarly to communicate over the Internet.
+3. It converts easily to HTML
+4. It is future-friendly. This means Markdown within a plain text file that has the file extension `.md` can be opened and used by any current day or future computer program. There is no reason to worry about outdated verisons of your plain text files.
 
-1. On your project repository's home page, click the "Settings" button (appears on the right along the tabs above the code area).
-2. On "Settings" page: click "Pages" in the left side menu.
-3. On the "Pages" page: in the "Source" section, change the dropdown button from "none" to "main" (leave the folder option as "/root"), then click the "Save" button. 
+# Let's make a Markdown file using GitHub
 
-Once saved, the page will refresh with an alert providing the URL where your site will appear. 
-It will take a few minutes for the build to happen and your site to go live--so wait it out! 
+## Create `index.md` within a GitHub repository
+Before we can add Markdown to a plain text file, we need to make one within GitHub.
 
-Meanwhile, you might want to copy the URL to display on your home page:
+1. Create a new repository or use one that you've already made
+2. Once you are in the repository, click Add file and then Create new file.
+![Figure describing where to create a new file. It has the description "Click here to create a new file.](/assets/images/markdown-001.png)
+3. Type `index.md` into the box that is to the right of foundations-2-markdown
+![Figure describing where to type the file name index.md. It has the description "Type index.md into this box."](/assets/images/markdown-002.png)
+4. Navigate to Commit new file. It is at the bottom of the page.
+5. Within the second input box that says "Add an optional extended description..." add a description about what you just did. 
+![Figure showing where to add an explaination before making a commit to GitHub. It also shows where to click to make a commit.](/assets/images/markdown-003.png)
+6. After you have made your commit then you will be on your repository's home page. You should now see `index.md` in your list of files
 
-1. Copy the provided URL.
-2. Go to repository's home page.
-3. On right side of the code area, look for "About" section and click on the cog icon to edit. 
-4. In the "About" box, paste in your URL, then click "Save". This will make it easy to access the site in the future!
+## Open `index.md` to begin writing with Markdown
+1. Click `index.md` to open it.
+![Figure showing where to click and open the index.md file. There is an explaination to click directly on the file name.](/assets/images/markdown-004.png)
+2. Click the pencil icon to edit `index.md`
+![Figure showing where to click and edit the index.md file. There is an explaination to click directly on the pencil icon.](/assets/images/markdown-005.png)
+3. You are now in edit mode and can begin writing.
+![Figure showing where start writing with Markdown.](/assets/images/markdown-005.png)
 
+# Let's write using Markdown
+
+When writing on the Internet with Markdown, we use it's synax to format text in structured ways using...
+
+- Headings
+- Paragraphs
+- Line Breaks
+- Emphasis, e.g. bold and italics
+- Lists, e.g. ordered lists and unordered lists
+- Images
+- Hyperlinks
+- Blockquotes
+- Tables
+
+For this learning exervise, we will learn how to use headings, paragraphs, line breaks, emphasis, lists, images, and hyperlinks. To learn how to use other parts of the Markdown syntax visit [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
