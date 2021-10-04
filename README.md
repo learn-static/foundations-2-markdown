@@ -2,7 +2,7 @@
 
 **Lesson content**: [Introduction to Markdown](https://github.com/learn-static/foundations-markdown/blob/main/intro-markdown.md)
 
-**Description**: This brief module provides instructions that give newcomers experience using Markdown, a markup language for adding formatting elements to text documents.
+**Description**: This brief module provides instructions that give newcomers experience using Markdown, a markup language for adding formatting elements to plain text files.
 
 **Time to complete**: 15-20 minutes
 
