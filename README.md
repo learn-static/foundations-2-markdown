@@ -6,7 +6,7 @@
 
 **Time to complete**: 15-20 minutes
 
-**Audience:** 
+**Audience:** undergraduate students; graduate students; faculty; information professionals
 
 **Prep:**
 - Complete [foundations-0-github](https://github.com/learn-static/foundations-0-github)
