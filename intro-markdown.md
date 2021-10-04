@@ -52,7 +52,8 @@ For this learning exercise, we will learn how to use headings, paragraphs, line 
 ## Adding Headers
 Markdown uses `#` to give structure to a web page's layout. There are different heading levels to use when writing. And there are different ones to use depending on a heading's level.
 
-```# Heading 1
+```
+# Heading 1
 ## Heading 2
 ### Heading 3
 #### Heading 4
