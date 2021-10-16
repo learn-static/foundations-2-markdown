@@ -127,7 +127,7 @@ uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda cultur
 Add this code to the Edit tab and then click Preview. The Markdown will render the text as illustrated in the figure below.
 
 ### Let's apply this to GitHub ###
-1. Within the Edit file tab of ```index.md```, apply italics, bold, and combined italics and bold to the words and paragraph identified in the above code. It should already be present for you to edit inside the Edit file tab.
+1. Within the Edit file tab of `index.md`, apply italics, bold, and combined italics and bold to the words and paragraph identified in the above code. It should already be present for you to edit inside the Edit file tab.
 2. Now click Preview to see how it renders. It should look like the figure below.
 
 ![Figure showing how Markdown emphasis renders.](/assets/images/markdown-010.png)
@@ -159,7 +159,7 @@ These are categories of ghosts and monsters that are found in the digital exhibi
 ```
 
 ### Let's apply this to GitHub ###
-1. Within the Edit file tab of ```index.md```, add these lists and the sentence above them under the heading "Senjafuda collections at the University of Oregon"
+1. Within the Edit file tab of `index.md`, add these lists and the sentence above them under the heading "Senjafuda collections at the University of Oregon"
 
 ![Figure showing how lists render.](/assets/images/markdown-011.png)
 
@@ -209,7 +209,7 @@ Here is an example of what the Markdown code looks when you add an image.
 ```
 
 ### Let's apply this to GitHub ###
-1. Within the Edit file tab of ```index.md```, add an image below the header "Senjafuda collections at the University of Oregon" using the information below.
+1. Within the Edit file tab of `index.md`, add an image below the header "Senjafuda collections at the University of Oregon" using the information below.
 
 **Image alternative text description:** Two-unit votive slip with double black border. Stone buddha scultpure with supernatural surroundings. Multiple white slips with black text at top.
 
@@ -247,13 +247,13 @@ Here is how it looks in Markdown.
 ```
 >Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
 >
-> Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well.[1] But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu.[2] It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+> Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
 ```
 
 Here is how it looks when Markdown renders.
 >Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
 >
-> Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well.[1] But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu.[2] It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+> Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
 
 **3. Using blockquotes that are nested within other blockquotes**
 What is different about nested blockquotes compared to blockquoting multiple paragraphs is the addition of an extra greater than character. When nesting a quote within a quote use `>>`.
@@ -264,13 +264,34 @@ Here is how it looks in Markdown.
 ```
 >Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
 >
-> >Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well.[1] But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu.[2] It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+> >Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
 ```
 
 Here is how it looks when Markdown renders.
 
 >Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
 >
-> >Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well.[1] But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu.[2] It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+> >Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+
+### Let's apply this to GitHub
+We are going to add 1 blockquote to `index.md`.
+
+1. Within the Edit file tab of `index.md`, add a multi-paragraph blockquote within the ordered list under the item "The Star Collection".
+
+Use this text to make the multi-paragraph blockquote.
+
+> Frederick Starr (1858-1933) was an American anthropologist at the University of Chicago who visited Japan frequently between 1904 and 1933. His primary interest during his stays in Japan was the social networks of collectors who were focused on objects associated with the early modern era, particularly collectors of traditional toys and senjafuda. Starr, his traveling companion Manuel Gonzales, and his interpreter Maebashi Hanzan were prominent fixtures at numerous senjafuda exchange meetings in the early 20th century, and Starr became so associated with the senjafuda scene that the press gave him the nickname “Professor Votive Slip” (Ofuda hakushi). Starr also wrote a short book about the history of senjafuda that was published in English in 1917 as The Nosatsu Kai and in Japanese (in a translation and adaptation by Fujisato Kōko) as Nōsatsu shi in 1921.
+>
+> Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
+>
+>Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+
+Here is an example of what the Markdown code looks like.
+![Figure showing what Markdown for a multi-paragraph blockquote looks like within the Edit file tab.](/assets/images/markdown-017.png)
+
+2. Click Preview to see how it renders. It should look like the figure below.
+![Figure showing what Markdown for a multi-paragraph blockquote looks like within the Edit file tab.](/assets/images/markdown-018.png)
+
+
 
 # Let's Make a Commit
