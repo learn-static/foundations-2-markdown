@@ -84,15 +84,38 @@ You will need to write in Markdown using the Edit file box. This example image s
 
 ![Figure showing a preview of how headings will render on a web page.](/assets/images/markdown-008.png)
 
-## Adding Paragraphs
+## Adding Paragraphs & Line Breaks
+Adding paragraphs does not require Markdown. You only just need to writing. Line breaks work just by using a keyboard return button.
 
-## Adding Line Breaks
+Here is an Markdown code example that uses headings, paragrpahs, and line breaks together. The image below this code is an example of how it renders on a web page.
 
-## Adding Emphasis
+```
+# Yōkai Senjafuda: Stories about Ghosts and Monsters
+This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
 
-### Add Italics Emphasis
+The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti. Later they became collector’s items, and by the middle of the 19th century they had become miniature masterpieces of woodblock printed art. Senjafuda depict a dizzying variety of themes with meticulous craftsmanship and vivid, stylish graphic design.
 
-### Add Bold Emphasis
+Yōkai simply means “monster,” but it’s best understood as referring specifically to monsters (and sometimes ghosts) as imagined in early modern Japan, particularly as depicted in wood-block prints. From Mizuki Shigeru to Studio Ghibli, from The Ring to Yōkai Watch, Japanese popular culture (including anime, manga, books, and film) is full of yōkai imagery.
+
+The University of Oregon’s collection of senjafuda is one of the largest in the world. It includes many senjafuda depicting yōkai. This exhibit uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.
+```
+![Figure showing how headings, paragraphs, and line breaks render.](/assets/images/markdown-009.png)
+
+
+## Adding Emphasis with Italics and Bold
+Emphasis can be used on text by applying italics or bold styles. Markdown uses the `*` sign to add these controls.
+
+`* a single astrisk is what should be used to apply italics emphasis`
+`** a double astrisk is what should be used to apply bold emphasis`
+
+To apply emphasis, you will need to add either `*` or `**` at the beginning and end of the text that you would like to italize or bold. Below is an example of how Markdown is applied to emphasize text in code form and an image rendering the code.
+
+```
+This digital exhibition focuses on tiny slips of paper—*senjafuda 千社札*—that depict Japanese ghosts and monsters—**yōkai 妖怪**. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
+```
+
+![Figure showing how emphasis for italics and bold render.](/assets/images/markdown-010.png)
+
 
 ## Adding Lists
 
@@ -105,8 +128,5 @@ You will need to write in Markdown using the Edit file box. This example image s
 ## Adding Hyperlinks
 
 # Let's Make a Commit
-
-
-
 
 
