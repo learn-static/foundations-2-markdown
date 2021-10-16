@@ -160,11 +160,40 @@ These are categories of ghosts and monsters that are found in the digital exhibi
 
 ### Let's apply this to GitHub ###
 1. Within the Edit file tab of ```index.md```, add these lists and the sentence above them under the heading "Senjafuda collections at the University of Oregon"
-2. Now click Preview to see how it renders. It should look like the figure below.
 
 ![Figure showing how lists render.](/assets/images/markdown-011.png)
 
-## How to Add Images Adding Images
+2. Now click Preview to see how it renders. It should look like the figure below.
+
+![Figure showing how lists render.](/assets/images/markdown-012.png)
+
+## How to Add Links
+### About Links
+A link from a text file or document to another location or file is activated by clicking on a highlighted word or image on the screen.
+
+The characters use to construct a link using Markdown inclue `[ ]` and `( )`.
+
+- `[ ]` tells Markdown that you want to add a title for the link
+- `( )` tells Markdown what is website or file the file directory path to go to when someone clicks on the link.
+
+Making a link using Markdown looks like this:
+
+```
+[Yōkai Senjafuda Digital Exhibit](https://glam.uoregon.edu/yokaisenjafuda/page/welcome)
+```
+
+### Let's apply this to GitHub ###
+1. Within the Edit file tab of ```index.md```, add a link to the Yōkai Senjafuda Digital Exhibit under the header "Yōkai Senjafuda: Stories about Ghosts and Monsters".
+
+Your Markdown code should look like this:
+
+![Figure showing how a link using Markdown looks before rendering.](/assets/images/markdown-013png)
+
+2. Now click Preview to see how it renders. It should look like the figure below.
+
+![Figure showing how lists render.](/assets/images/markdown-014.png)
+
+## How to Add Images
 ### About Images
 Images can be added with Markdown by adding `!`, `[ ]`, `( )`, and `" "` to create a string using an alterntative text description, an image file directory path on your web server or website address, and optionally adding a title after the URL in the paraenthesis. Something to note, it is best practice to always add an alternative text description. This supports people with visual impairments navigate the Internet through the use of text to speech computer capabilities.
 
@@ -189,23 +218,18 @@ Here is an example of what the Markdown code looks when you add an image.
 **Optional Image Title:** Two-unit votive slip with double black border. Stone buddha scultpure with supernatural surroundings. Multiple white slips with black text at top.
 
 Here is an example of what your image code should look like.
-![Figure showing where to add the Markdown image code to the Edit file tab.](/assets/images/markdown-011.png)
+![Figure showing where to add the Markdown image code to the Edit file tab.](/assets/images/markdown-015.png)
 
-2. Now click Preview to see how it renders. It should look like the figure below.
+2. Click Preview to see how it renders. It should look like the figure below.
 
-![Figure showing an image rendered within the Edit file tab.](/assets/images/markdown-012.png)
-
-## How to Add Hyperlinks
-### About Adding Images
-### Let's apply this to GitHub ###
+![Figure showing an image rendered within the Edit file tab.](/assets/images/markdown-016.png)
 
 ## How to Add Blockquotes
 ### About Blockquotes
 ### Let's apply this to GitHub ###
 
 ## Adding Tables
+### About Tables
 ### Let's apply this to GitHub ###
 
 # Let's Make a Commit
-
-
