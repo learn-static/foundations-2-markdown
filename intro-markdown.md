@@ -162,7 +162,7 @@ These are categories of ghosts and monsters that are found in the digital exhibi
 1. Within the Edit file tab of ```index.md```, add these lists and the sentence above them under the heading "Senjafuda collections at the University of Oregon"
 2. Now click Preview to see how it renders. It should look like the figure below.
 
-![Figure showing how emphasis for italics and bold render.](/assets/images/markdown-011.png)
+![Figure showing how lists render.](/assets/images/markdown-011.png)
 
 ## How to Add Images Adding Images
 ### About Images
@@ -189,11 +189,11 @@ Here is an example of what the Markdown code looks when you add an image.
 **Optional Image Title:** Two-unit votive slip with double black border. Stone buddha scultpure with supernatural surroundings. Multiple white slips with black text at top.
 
 Here is an example of what your image code should look like.
-![Figure showing how emphasis for italics and bold render.](/assets/images/markdown-011.png)
+![Figure showing where to add the Markdown image code to the Edit file tab.](/assets/images/markdown-011.png)
 
 2. Now click Preview to see how it renders. It should look like the figure below.
 
-![Figure showing how Markdown emphasis renders.](/assets/images/markdown-012.png)
+![Figure showing an image rendered within the Edit file tab.](/assets/images/markdown-012.png)
 
 ## How to Add Hyperlinks
 ### About Adding Images
