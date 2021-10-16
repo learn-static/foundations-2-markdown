@@ -38,8 +38,7 @@ Before we can add Markdown to a plain text file, we need to make one within GitH
 When writing on the Internet with Markdown, we use it's synax to format text in structured ways using...
 
 - Headings
-- Paragraphs
-- Line Breaks
+- Paragraphs and Line Breaks
 - Emphasis, e.g. bold and italics
 - Lists, e.g. numbered lists and unordered lists
 - Images
@@ -49,7 +48,8 @@ When writing on the Internet with Markdown, we use it's synax to format text in 
 
 For this learning exercise, we will learn how to use headings, paragraphs, line breaks, emphasis, lists, images, and hyperlinks. To learn how to use other parts of the Markdown syntax visit [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
-## Adding Headings
+## How-to Add Headings
+### About Headings
 Markdown uses `#` to give structure to a web page's layout, and there are different heading levels to use while writing. Headings are organized in a hierarchical order that create sections on a web page. You must not breaking this order because it will make the readability of your web page content visuall difficult to read, and will have negative impact on the readability, navigation, and accessibility of your web page. To learn more about headings and web accessibility visit [A11y styleguide - Structure](https://a11y-style-guide.com/style-guide/section-structure.html)
 
 ```# Heading 1
@@ -59,10 +59,8 @@ Markdown uses `#` to give structure to a web page's layout, and there are differ
 ##### Heading 5
 ###### Heading 6
 ```
-
-Now lets apply this to the `index.md` that you previously made.
-
-1. Get into `index.md` edit mode
+### Let's apply this to GitHub ###
+1. Get into `index.md` edit mode that you previously made.
 2. Add two headings using this code -- heading 1 and heading 2. You are welcome to use whatever text you like, but example text is available here.
 
 Here are two examples that show Markdown in code form and then what Markdown looks like on a web page.
@@ -72,7 +70,6 @@ Markdown Example
 # Yōkai Senjafuda: Stories about Ghosts and Monsters
 ## Senjafuda collections at the University of Oregon
 ```
-
 Markdown Rendering Example
 ![Figure showing the rendering of heading 1 and heading 2.](/assets/images/markdown-006.png)
 
@@ -84,48 +81,130 @@ You will need to write in Markdown using the Edit file box. This example image s
 
 ![Figure showing a preview of how headings will render on a web page.](/assets/images/markdown-008.png)
 
-## Adding Paragraphs & Line Breaks
+## How-to Add Paragraphs and Line Breaks
+### About Paragraphs and Line Breaks
 Adding paragraphs does not require Markdown. You only just need to writing. Line breaks work just by using a keyboard return button.
 
-Here is an Markdown code example that uses headings, paragrpahs, and line breaks together. The image below this code is an example of how it renders on a web page.
+Here is an Markdown code example that uses headings, paragraph, and line breaks together. The image below this code is an example of how it renders on a web page.
 
-```
-# Yōkai Senjafuda: Stories about Ghosts and Monsters
-This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
+**Sample Paragraphs with Line Breaks**
 
-The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti. Later they became collector’s items, and by the middle of the 19th century they had become miniature masterpieces of woodblock printed art. Senjafuda depict a dizzying variety of themes with meticulous craftsmanship and vivid, stylish graphic design.
+> This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
+>
+> The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti. Later they became collector’s items, and by the middle of the 19th century they had become miniature masterpieces of woodblock printed art. Senjafuda depict a dizzying variety of themes with meticulous craftsmanship and vivid, stylish graphic design.
+>
+> Yōkai simply means “monster,” but it’s best understood as referring specifically to monsters (and sometimes ghosts) as imagined in early modern Japan, particularly as depicted in wood-block prints. From Mizuki Shigeru to Studio Ghibli, from The Ring to Yōkai Watch, Japanese popular culture (including anime, manga, books, and film) is full of yōkai imagery.
+>
+> The University of Oregon’s collection of senjafuda is one of the largest in the world. It includes many senjafuda depicting yōkai. This exhibit uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.
 
-Yōkai simply means “monster,” but it’s best understood as referring specifically to monsters (and sometimes ghosts) as imagined in early modern Japan, particularly as depicted in wood-block prints. From Mizuki Shigeru to Studio Ghibli, from The Ring to Yōkai Watch, Japanese popular culture (including anime, manga, books, and film) is full of yōkai imagery.
+### Let's apply this to GitHub ###
+1. Add these paragraphs and line breaks under the heading "Yōkai Senjafuda: Stories about Ghosts and Monsters" to the Edit tab
+2. Now click Preview to see how it renders. It should look like the figure below.
 
-The University of Oregon’s collection of senjafuda is one of the largest in the world. It includes many senjafuda depicting yōkai. This exhibit uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.
-```
 ![Figure showing how headings, paragraphs, and line breaks render.](/assets/images/markdown-009.png)
 
 
-## Adding Emphasis with Italics and Bold
-Emphasis can be used on text by applying italics or bold styles. Markdown uses the `*` sign to add these controls.
+## How-to Add Emphasis
+### About Emphasis with Italics and Bold ###
+Emphasis can be used on text by applying italics or bold styles. Markdown uses the `*`sign to add styling controls.
 
-`* a single astrisk is what should be used to apply italics emphasis`
-`** a double astrisk is what should be used to apply bold emphasis`
+`*` a single astrisk is what should be used to apply italics emphasis
 
-To apply emphasis, you will need to add either `*` or `**` at the beginning and end of the text that you would like to italize or bold. Below is an example of how Markdown is applied to emphasize text in code form and an image rendering the code.
+`**` a double astrisk is what should be used to apply bold emphasis
+
+`***` a triple astrisk is what should be used to apply italics and bold emphasis together.
+
+To apply emphasis, you will need to add either `*`, `**`, or `***` at the beginning and end of the text that you would like to emphasize. Below is an example of how Markdown is applied to emphasize to text in code form and an image rendering the code within the context of a paragraph.
 
 ```
-This digital exhibition focuses on tiny slips of paper—*senjafuda 千社札*—that depict Japanese ghosts and monsters—**yōkai 妖怪**. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
+*senjafuda 千社札*
+**yōkai 妖怪**
+***The University of Oregon’s collection of senjafuda is one of the largest 
+in the world. It includes many senjafuda depicting yōkai. This exhibit 
+uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.***
 ```
 
-![Figure showing how emphasis for italics and bold render.](/assets/images/markdown-010.png)
+Add this code to the Edit tab and then click Preview. The Markdown will render the text as illustrated in the figure below.
+
+### Let's apply this to GitHub ###
+1. Within the Edit file tab of ```index.md```, apply italics, bold, and combined italics and bold to the words and paragraph identified in the above code. It should already be present for you to edit inside the Edit file tab.
+2. Now click Preview to see how it renders. It should look like the figure below.
+
+![Figure showing how Markdown emphasis renders.](/assets/images/markdown-010.png)
 
 
-## Adding Lists
+## How-to Add Lists
+### About Lists ###
+There are two types of lists to use with Markdown, ordered and unordered lists.
 
-### Create an Unordered List
+**Ordered Lists**
+To make an ordered list use numbers to make it. For every new list item add it on a new line.
 
-### Create a Numbered List
+```
+These are the digital collections used to making the digital exhibit.
+1. The Star Collection
+2. The Shōbundō collection
+```
 
-## Adding Images
+**Unordered Lists** 
+To make an unordered list use `-` to make it. For every new list item add it on a new line.
 
-## Adding Hyperlinks
+```
+These are categories of ghosts and monsters that are found in the digital exhibit.
+- Kappas
+- Oni
+- Cats
+- Foxes
+- Tengu
+```
+
+### Let's apply this to GitHub ###
+1. Within the Edit file tab of ```index.md```, add these lists and the sentence above them under the heading "Senjafuda collections at the University of Oregon"
+2. Now click Preview to see how it renders. It should look like the figure below.
+
+![Figure showing how emphasis for italics and bold render.](/assets/images/markdown-011.png)
+
+## How to Add Images Adding Images
+### About Images
+Images can be added with Markdown by adding `!`, `[ ]`, `( )`, and `" "` to create a string using an alterntative text description, an image file directory path on your web server or website address, and optionally adding a title after the URL in the paraenthesis. Something to note, it is best practice to always add an alternative text description. This supports people with visual impairments navigate the Internet through the use of text to speech computer capabilities.
+
+- `!` tells Markdown that you want to add an image
+- `[ ]` tells Markdown that you want to add an alternative text description
+- `( )` tells Markdown what is the file directory path or website address your image file is located
+- `" "` tells Markdown to optionally add a title
+
+Here is an example of what the Markdown code looks when you add an image.
+
+```
+![Two-unit votive slip with double black border. Kabuki scene with young female dancing. Flames on kimono and falling around her. Decorative fan shapes at top with ren mark patterns and black text.](https://oregondigital.org/downloads/oregondigital:df728t07k "Two-unit votive slip with double black border. Kabuki scene with young female dancing. Flames on kimono and falling around her. Decorative fan shapes at top with ren mark patterns and black text.")
+```
+
+### Let's apply this to GitHub ###
+1. Within the Edit file tab of ```index.md```, add an image below the header "Senjafuda collections at the University of Oregon" using the information below.
+
+**Image alternative text description:** Two-unit votive slip with double black border. Stone buddha scultpure with supernatural surroundings. Multiple white slips with black text at top.
+
+**Image URL:** https://oregondigital.org/media/medium-images/c/5/oregondigital-df72bk65c.jpg
+
+**Optional Image Title:** Two-unit votive slip with double black border. Stone buddha scultpure with supernatural surroundings. Multiple white slips with black text at top.
+
+Here is an example of what your image code should look like.
+![Figure showing how emphasis for italics and bold render.](/assets/images/markdown-011.png)
+
+2. Now click Preview to see how it renders. It should look like the figure below.
+
+![Figure showing how Markdown emphasis renders.](/assets/images/markdown-012.png)
+
+## How to Add Hyperlinks
+### About Adding Images
+### Let's apply this to GitHub ###
+
+## How to Add Blockquotes
+### About Blockquotes
+### Let's apply this to GitHub ###
+
+## Adding Tables
+### Let's apply this to GitHub ###
 
 # Let's Make a Commit
 
