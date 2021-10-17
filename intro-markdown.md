@@ -293,5 +293,17 @@ Here is an example of what the Markdown code looks like.
 ![Figure showing what Markdown for a multi-paragraph blockquote looks like within the Edit file tab.](/assets/images/markdown-018.png)
 
 
-
 # Let's Make a Commit
+Now we're ready to make a commit because you've just finished creating your first web page that used Markdown to structure text.
+
+1. Go to the bottom of your `index.md` file while still in edit mode.
+2. Find the "Commit changes" section
+3. Title your commit and then add a description about what you are committing.
+
+**Commit Text Example**
+
+Commit title
+>Adding text and images to the file
+
+Commit description
+>This is my first attempt at using Markdown with GitHub. I've added - Headings, Paragraphs and Line Breaks, Emphasis, e.g. bold and italics, Lists, e.g. numbered lists and unordered lists, Images, Hyperlinks, and Blockquotes using content from the University of Oregon's Yōkai Senjafuna digital exhibit.
