@@ -13,7 +13,7 @@
 
 **Objectives**: 
 - Use Github to create an index.md file
-- Apply Markdown syntax to render a simple web page that includes headings, paragraphs, line breaks, links, images, lists, and blockquotes
+- Apply Markdown syntax to render a simple web page that includes headings, paragraphs, line breaks, emphasis, links, images, lists, and blockquotes
 
 **External Resources**:
 - [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
