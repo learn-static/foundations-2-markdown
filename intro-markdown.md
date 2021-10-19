@@ -44,7 +44,6 @@ When writing on the Internet with Markdown, we use it's synax to format text in 
 - Images
 - Hyperlinks
 - Blockquotes
-- Tables
 
 For this learning exercise, we will learn how to use headings, paragraphs, line breaks, emphasis, lists, images, and hyperlinks. To learn how to use other parts of the Markdown syntax visit [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
@@ -187,7 +186,7 @@ Making a link using Markdown looks like this:
 
 Your Markdown code should look like this:
 
-![Figure showing how a link using Markdown looks before rendering.](/assets/images/markdown-013png)
+![Figure showing how a link using Markdown looks before rendering.](https://github.com/learn-static/foundations-2-markdown/blob/main/assets/images/markdown-013.png)
 
 2. Now click Preview to see how it renders. It should look like the figure below.
 
