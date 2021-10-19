@@ -210,7 +210,7 @@ Here is an example of what the Markdown code looks when you add an image.
 ### Let's apply this to GitHub ###
 1. Within the Edit file tab of `index.md`, add an image below the header "Senjafuda collections at the University of Oregon" using the information below.
 
-**Image alternative text description:** Two-unit votive slip with double black border. Stone buddha scultpure with supernatural surroundings. Multiple white slips with black text at top.
+**Image alternative text description:** Two-unit votive slip with double black border. Stone buddha sculpture with supernatural surroundings. Multiple white slips with black text at top.
 
 **Image URL:** https://oregondigital.org/media/medium-images/c/5/oregondigital-df72bk65c.jpg
 
