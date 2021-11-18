@@ -5,10 +5,10 @@ This brief module provides instructions that give newcomers experience using Mar
 Markdown is a plain text formatting syntax that helps to make writing for the Internet easier. It allows for a straight-forward way to structure text, links, images, code, tables, and lists within a plain text document without using tags like those used to markup plain text documents with HTML.
 
 **Why use Markdown?**
-1. It can be fast to use while writing web page content
-2. It is used all over the place. It's a standard used by GitHub and other tools people use reguarly to communicate over the Internet.
-3. It converts easily to HTML
-4. It is future-friendly. This means Markdown within a plain text file that has the file extension `.md` can be opened and used by any current day or future computer program. There is no reason to worry about outdated verisons of your plain text files.
+- It can be fast to use while writing web page content
+- It is used all over the place. It's a standard used by GitHub and other tools people use reguarly to communicate over the Internet.
+- It converts easily to HTML
+- It is future-friendly. This means Markdown within a plain text file that has the file extension `.md` can be opened and used by any current day or future computer program. There is no reason to worry about outdated verisons of your plain text files.
 
 # Let's make a Markdown file using GitHub
 
