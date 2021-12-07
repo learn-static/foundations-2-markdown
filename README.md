@@ -9,7 +9,8 @@
 **Audience:** undergraduate students; graduate students; faculty; information professionals
 
 **Prep:**
-- Complete [foundations-0-github](https://github.com/learn-static/foundations-0-github)
+- Complete [foundations-0](https://github.com/learn-static/foundations-0-github)
+- Complete [foundations-1](https://github.com/learn-static/foundations-1-html)
 
 **Objectives**: 
 - Use Github to create an index.md file
