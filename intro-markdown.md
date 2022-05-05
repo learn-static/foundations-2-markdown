@@ -5,7 +5,7 @@ This brief module provides instructions that give newcomers experience using Mar
 Markdown was developed as a simple way to write content for the web without using HTML (hyptertext markup language), a language commonly used to write content for websites.
 It allows for a straight-forward way to structure text, links, images, code, tables, and lists within a plain text document without using tags like those used in HTML.
 
-Using Markdown, we can format text in structured ways using...
+Using Markdown, we can format text using...
 
 - Headings
 - Paragraphs and Line Breaks
@@ -13,14 +13,14 @@ Using Markdown, we can format text in structured ways using...
 - Lists, e.g. numbered lists and unordered lists
 - Images
 - Hyperlinks
-- Blockquotes
+- Block quotes
 
-For this learning exercise, we will learn how to use headings, paragraphs, line breaks, emphasis, lists, images, and hyperlinks. 
-To learn how to use other parts of the Markdown syntax visit [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
+We'll cover everything in this list during this learning exercise.
+To learn how to use other parts of the Markdown syntax not covered here visit [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
 
 **Why use Markdown?**
 - It can be fast to use while writing webpage content
-- It is used all over the place. It's a standard used by GitHub and other tools people use reguarly to communicate over the Internet.
+- It is used all over the place. It's a standard used by GitHub and other tools people use regularly to communicate over the Internet.
 - It converts easily to HTML
 - It is future-friendly. This means Markdown within a plain text file that has the file extension `.md` can be opened and used by any current day or future computer program. There is no reason to worry about outdated versions of your plain text files.
 
@@ -71,47 +71,41 @@ Make sure to organize your headings in hierarchical order (i.e. always nest Head
 3. You are now in GitHub's editing mode and can begin writing.
 4. In the first line of your `index.md` file, add a Heading 1 that reads, `# Yōkai Senjafuda: Stories about Ghosts and Monsters`
 5. On line 3, add a Heading 2 that reads, `## Section 1`
-6. On line 4, add a Heading 3 that reads, `## Section 2`
+6. On line 4, add a Heading 2 that reads, `## Section 2`
 7. To see how your headings will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
 ---
 
 ## Step 3. Paragraphs and Line Breaks
 
-Paragraphs in Markdown can be written exactly as you write them in Microsoft Word, but *without a tabbed first sentence* and *with a blank line in between paragraphs*.
-In other words, you can string together sentences one after another as you are used to doing when you write papers or emails, and they will appear in a paragraph on the front end of the webpage.
+Paragraphs in Markdown don't require any special markup.
+They can be written exactly as you write them in Microsoft Word, but *without a tabbed first sentence* and *with a blank line in between paragraphs*.
+In other words, you can string together sentences one after another as you are used to doing when you write paragraphs in papers or emails, and they will appear in a paragraph on the front end of the webpage.
 
-*However*, be aware that **if you don't put an empty line *between* your paragraphs when you write them, they will all join into one *massive* paragraph on your webpage**.
+*However*, be aware that **any text with no empty lines between will be joined into a paragraph.**.
+You should also leave an empty line between headings and paragraphs.
 
-For example, these two paragraphs have a blank line in between them, and will translate accordingly from the back end to the front end:
+For example, take a look at the following three sentences.
 
-**`index.md` view**:
+**Markdown file view**:
 
-`This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.`
+```
+This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. 
+Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries).
 
-`The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti.`
+The phenomenon of senjafuda dates back to the late 18th century.
+```
 
 **"Front end" view**: 
 
-This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
+This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. 
+Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries)..
 
-The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti. 
+The phenomenon of senjafuda dates back to the late 18th century. 
 
-**But the following two paragraphs will merge into one paragraph when rendered on the front end, even though they are written on separate lines on the back end:**
-
-**`index.md` view**:
-
-```
-This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
-The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti.
-```
-
-**"Front end" view**:
-
-This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
-The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti.
-
-**So, make sure to leave empty lines between your paragraphs, and between headings and paragraphs.**
+Since there is an empty line above the third sentence, this starts a new paragraph. 
+This gives you the option to write a paragraph all on one line (like a word processor), or to put each sentence on its own line. 
+Splitting the sentences can make editing and version control easier.
 
 #### Practice Using Paragraphs
 
@@ -134,7 +128,7 @@ The University of Oregon’s collection of senjafuda is one of the largest in th
 ## Step 4. Emphasis
 
 Emphasis can be added to text by applying italics or bold styles. 
-Markdown uses the asterisk (`*`) character to add styling controls.
+Markdown uses the asterisk (`*`) character to add styling.
 
 To make a word or phrase *italic*, add one asterisk before and after that word or phrase, like this: `*example phrase*`.
 The asterisks won't be visible on your webpage, but your text will appear italicized.
@@ -154,7 +148,7 @@ Again, the asterisks won't be visible on your webpage, but your text will appear
 
 **yōkai 妖怪**
 
-***The University of Oregon’s collection of senjafuda is one of the largest in the world. It includes many senjafuda depicting yōkai. This exhibit uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.***
+***The University of Oregon’s collection of senjafuda is one of the largest in the world.***
 ```
 
 2. To see how your emphasized text will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your emphasized text will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
