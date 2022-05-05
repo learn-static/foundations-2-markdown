@@ -86,6 +86,9 @@ In other words, you can string together sentences one after another as you are u
 You should also leave an empty line between headings and paragraphs.
 
 For example, take a look at the following three sentences.
+Since there is an empty line above the third sentence, this starts a new paragraph. 
+This gives you the option to write a paragraph all on one line (like a word processor), or to put each sentence on its own line. 
+Splitting the sentences can make editing and version control easier.
 
 **Markdown file view**:
 
@@ -96,16 +99,12 @@ Both senjafuda and yōkai have their roots in Japanese popular culture in the ea
 The phenomenon of senjafuda dates back to the late 18th century.
 ```
 
-**"Front end" view**: 
+**Front end view**: 
 
 This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. 
 Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries)..
 
 The phenomenon of senjafuda dates back to the late 18th century. 
-
-Since there is an empty line above the third sentence, this starts a new paragraph. 
-This gives you the option to write a paragraph all on one line (like a word processor), or to put each sentence on its own line. 
-Splitting the sentences can make editing and version control easier.
 
 #### Practice Using Paragraphs
 
