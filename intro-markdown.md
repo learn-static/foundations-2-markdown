@@ -219,127 +219,77 @@ To link to another page or site, insert the link title (what you want displayed 
 [Yōkai Senjafuda Digital Exhibit](https://glam.uoregon.edu/yokaisenjafuda/page/welcome)
 ```
 
-3. To see how your hyperlink will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your hyperlink will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
+2. To see how your hyperlink will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your hyperlink will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
 ---
 
 ## Step 7. Images
 
-Add an image to your webpage using the following combination:
+Add an image to your webpage using the following formula:
 
-`!
-Images can be added with Markdown by adding `!`, `[ ]`, `( )`, and `" "` to create a string using an alterntative text description, an image file directory path on your web server or website address, and optionally adding a title after the URL in the paraenthesis. Something to note, 
+`![alt text description](path to image)"optional image title"`
 
-Note that it is best practice to always add an alternative text description.
-This ensures that screen readers can convey the contents of images to users with visual impairments.
+- **Alt text description**: The alternative text description should be a short description of the image. It will ensure that screen readers can convey the contents of images to users with visual impairments.
+- **Path to image**: This is the image's source, and can either be a URL to an image stored elsewhere or a filepath to an image in your current GitHub repository.
+- **Optional image title**: If given, the title will display underneath the image. Use the title option to give some context about your image, and keep it brief. If you choose not to include a title, simply end the formula after the "path to image" value, like so: `![alt text description](path to image)`
 
-- `!` tells Markdown that you want to add an image
-- `[ ]` tells Markdown that you want to add an alternative text description
-- `( )` tells Markdown what is the file directory path or website address your image file is located
-- `" "` tells Markdown to optionally add a title
+### Practice Adding Images
 
-Here is an example of what the Markdown code looks when you add an image.
+1. Copy the following image code and paste it underneath the heading `## Section 2` in your `index.md` file. Make sure to leave a blank line between the Section 2 heading and the following text:
 
 ```
-![Two-unit votive slip with double black border. Kabuki scene with young female dancing. Flames on kimono and falling around her. Decorative fan shapes at top with ren mark patterns and black text.](https://oregondigital.org/downloads/oregondigital:df728t07k "Two-unit votive slip with double black border. Kabuki scene with young female dancing. Flames on kimono and falling around her. Decorative fan shapes at top with ren mark patterns and black text.")
+![Image of a woman in a kimono dancing. Flames are falling around her and decorative fan shapes are above her.](https://oregondigital.org/downloads/oregondigital:df728t07k)"Kabuki scene with young female dancing"
 ```
 
-### Let's apply this to GitHub ###
-1. Within the Edit file tab of `index.md`, add an image below the header "Senjafuda collections at the University of Oregon" using the information below.
+2. To see how your image will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your image will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
-**Image alternative text description:** Two-unit votive slip with double black border. Stone buddha sculpture with supernatural surroundings. Multiple white slips with black text at top.
+---
 
-**Image URL:** https://oregondigital.org/media/medium-images/c/5/oregondigital-df72bk65c.jpg
+## Step 8. Block quotes
 
-**Optional Image Title:** Two-unit votive slip with double black border. Stone buddha scultpure with supernatural surroundings. Multiple white slips with black text at top.
+Block quote formatting can be used to distinguish sections of your text.
 
-Here is an example of what your image code should look like.
-![Figure showing where to add the Markdown image code to the Edit file tab.](/assets/images/markdown-015.png)
+Add `>` to the beginning of a line of text to make it a block quote.
 
-2. Click Preview to see how it renders. It should look like the figure below.
+Example: 
 
-![Figure showing an image rendered within the Edit file tab.](/assets/images/markdown-016.png)
-
-## How to Add Blockquotes
-### About Blockquotes
-Blockquotes allows you to offset text from the main text to be distinguishable and identified visually. They are typically used for long quotes. To make blockquotes we use the `>` symbol. In order to make a blockquote, you have to add `>` at the beginning of your quote.
-
-There are three approaches to using blockquotes
-**1. Using a single blockquote**
-To add a single blockquote, add `>` at the beginning of the paragraph.
-
-Here is how it looks in Markdown.
 ```
->Frederick Starr (1858-1933) was an American anthropologist at the University of Chicago who visited Japan frequently between 1904 and 1933. His primary interest during his stays in Japan was the social networks of collectors who were focused on objects associated with the early modern era, particularly collectors of traditional toys and senjafuda. Starr, his traveling companion Manuel Gonzales, and his interpreter Maebashi Hanzan were prominent fixtures at numerous senjafuda exchange meetings in the early 20th century, and Starr became so associated with the senjafuda scene that the press gave him the nickname “Professor Votive Slip” (Ofuda hakushi). Starr also wrote a short book about the history of senjafuda that was published in English in 1917 as The Nosatsu Kai and in Japanese (in a translation and adaptation by Fujisato Kōko) as Nōsatsu shi in 1921.
+> Block quote.
+> Continuing the quote.
 ```
 
-Here is how it looks when Markdown renders.
->Frederick Starr (1858-1933) was an American anthropologist at the University of Chicago who visited Japan frequently between 1904 and 1933. His primary interest during his stays in Japan was the social networks of collectors who were focused on objects associated with the early modern era, particularly collectors of traditional toys and senjafuda. Starr, his traveling companion Manuel Gonzales, and his interpreter Maebashi Hanzan were prominent fixtures at numerous senjafuda exchange meetings in the early 20th century, and Starr became so associated with the senjafuda scene that the press gave him the nickname “Professor Votive Slip” (Ofuda hakushi). Starr also wrote a short book about the history of senjafuda that was published in English in 1917 as The Nosatsu Kai and in Japanese (in a translation and adaptation by Fujisato Kōko) as Nōsatsu shi in 1921.
+Displays as:
 
-**2. Using blockquotes for multiple paragraphs**
-Similar to adding a `>` at the beginning of each paragraph, when blockquoting multiple paragraphs you need to add `>` at the start of each paragraph and then the line between them.
+> Block quote.
+> Continuing the quote.
 
-Here is how it looks in Markdown.
+1. Copy the following block quote code and paste it underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
+
 ```
->Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
->
-> Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+> Frederick Starr (1858-1933) was an American anthropologist at the University of Chicago who visited Japan frequently between 1904 and 1933.
 ```
 
-Here is how it looks when Markdown renders.
->Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
->
-> Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+2. To see how your block quote will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your block quote will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
 
-**3. Using blockquotes that are nested within other blockquotes**
-What is different about nested blockquotes compared to blockquoting multiple paragraphs is the addition of an extra greater than character. When nesting a quote within a quote use `>>`.
+---
 
-### Let's apply this to GitHub
+## Step 9. Commit Your Changes
 
-Here is how it looks in Markdown.
-```
->Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
->
-> >Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
-```
+Congratulations, you've just finished creating your first Markdown document!
 
-Here is how it looks when Markdown renders.
+1. Scroll to the bottom of your `index.md` file while still in edit mode.
+2. Type a commit message into the "Commit changes" text box.
+3. Click the green "Commit changes" button to save your changes.
 
->Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
->
->>Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
+---
 
-### Let's apply this to GitHub
-We are going to add 1 blockquote to `index.md`.
+## Further Learning
 
-1. Within the Edit file tab of `index.md`, add a multi-paragraph blockquote within the ordered list under the item "The Star Collection".
+**Ready to continue on in the Learn-Static sequence?**
+Next up is [foundations-3-data](https://github.com/learn-static/foundations-3-data).
 
-Use this text to make the multi-paragraph blockquote.
+**Interested in learning more about Markdown?**
+Check out these external resources:
 
->Frederick Starr (1858-1933) was an American anthropologist at the University of Chicago who visited Japan frequently between 1904 and 1933. His primary interest during his stays in Japan was the social networks of collectors who were focused on objects associated with the early modern era, particularly collectors of traditional toys and senjafuda. Starr, his traveling companion Manuel Gonzales, and his interpreter Maebashi Hanzan were prominent fixtures at numerous senjafuda exchange meetings in the early 20th century, and Starr became so associated with the senjafuda scene that the press gave him the nickname “Professor Votive Slip” (Ofuda hakushi). Starr also wrote a short book about the history of senjafuda that was published in English in 1917 as The Nosatsu Kai and in Japanese (in a translation and adaptation by Fujisato Kōko) as Nōsatsu shi in 1921.
->
->Starr amassed a huge collection of senjafuda both through his frequent attendance at exchange meetings and by procuring scrapbooks put together by other collectors. As a result of his persistence in acquiring senjafuda his collection not only thoroughly documents the years he was active in senjafuda (the 1910s to early 1930s), but also contains examples going back to the mid-19th century. After his death, his senjafuda collection was acquired by Gertrude Bass Warner (1863-1951), a traveler and collector of Japanese, Chinese, and Korean art and founder of the University of Oregon Art Museum (now the Jordan Schnitzer Museum of Art). The senjafuda mounted in scrapbooks (more than 50 of them) are now housed in Special Collections and University Archives (University of Oregon Libraries), while the loose slips are housed in the Jordan Schnitzer Museum of Art.
->
->Henry Smith has examined Starr's scholarly interest in Japan in detail, noting Starr's consistent attention to the religious dimension of culture—clearly visible in senjafuda, as this exhibition shows. Smith also notes that Starr's interest in “the social matrices in which these objects came to be collected, depicted, and exchanged in…distinctive subcultures of modern Japan” gives his work value in a contemporary context as well. But Starr had an eye for phenomena that appealed to a playful as well as a scholarly bent. When asked by a reporter for a Japanese newspaper what his interests were, he reeled off a list that began with kappa and tengu. It's no wonder, then, that yōkai are well represented in his senjafuda collection.
-
-Here is an example of what the Markdown code looks like.
-![Figure showing what Markdown for a multi-paragraph blockquote looks like within the Edit file tab.](/assets/images/markdown-017.png)
-
-2. Click Preview to see how it renders. It should look like the figure below.
-![Figure showing what Markdown for a multi-paragraph blockquote looks like within the Edit file tab.](/assets/images/markdown-018.png)
-
-
-# Let's Make a Commit
-Now we're ready to make a commit because you've just finished creating your first webpage that used Markdown to structure text.
-
-1. Go to the bottom of your `index.md` file while still in edit mode.
-2. Find the "Commit changes" section
-3. Title your commit and then add a description about what you are committing.
-
-**Commit Text Example**
-
-Commit title
->Adding text and images to the file
-
-Commit description
->This is my first attempt at using Markdown with GitHub. I've added - Headings, Paragraphs and Line Breaks, Emphasis, e.g. bold and italics, Lists, e.g. numbered lists and unordered lists, Images, Hyperlinks, and Blockquotes using content from the University of Oregon's Yōkai Senjafuna digital exhibit.
+- [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+- [Github Guides: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
