@@ -4,7 +4,7 @@ This brief module provides instructions that give newcomers experience using Mar
 
 ## What is Markdown?
 
-Markdown was developed as a simple way to write content for the web without using HTML (hyptertext markup language), a language commonly used to write content for websites.
+Markdown was developed as a simple way to write content for the web without using HTML (hypertext markup language), a language commonly used to write content for websites.
 It allows for a straight-forward way to structure text, links, images, code, tables, and lists within a plain text document without using tags like those used in HTML.
 
 Using Markdown, we can format text using...
