@@ -1,7 +1,9 @@
 # Introduction to Markdown
+
 This brief module provides instructions that give newcomers experience using Markdown, a human-readable markup language for adding formatting to plain text files.
 
 ## What is Markdown?
+
 Markdown was developed as a simple way to write content for the web without using HTML (hyptertext markup language), a language commonly used to write content for websites.
 It allows for a straight-forward way to structure text, links, images, code, tables, and lists within a plain text document without using tags like those used in HTML.
 
@@ -19,6 +21,7 @@ We'll cover everything in this list during this learning exercise.
 To learn how to use other parts of the Markdown syntax not covered here visit [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
 
 **Why use Markdown?**
+
 - It can be fast to use while writing webpage content
 - It is used all over the place. It's a standard used by GitHub and other tools people use regularly to communicate over the Internet.
 - It converts easily to HTML
